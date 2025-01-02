@@ -1,0 +1,47 @@
+:host {
+    display: grid;
+    // grid-template-rows: 65px 1fr 60px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 275px 1fr;
+    min-height: 100vh;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  /* Navbar fixe à gauche */
+  app-navbar {
+    grid-row: 1;
+    grid-column: 1;
+    color: white;
+    height: 100vh;
+    width: 275px;
+   
+  }
+  
+  /* Header */
+//   app-header {
+//     grid-row: 1; 
+//     grid-column: 2; 
+//     background-color: #3f51b5; 
+//     color: white;
+//   }
+  
+  /* Main */
+  app-main {
+    grid-row: 1; 
+    grid-column: 2; 
+    background-color: #f5f5f5;
+    overflow-y: auto; 
+  }
+  
+  /* Footer */
+//   app-footer {
+//     grid-row: 3;
+//     grid-column: 2;
+//     background-color: #3f51b5;
+//     color: white;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//   }
+  
